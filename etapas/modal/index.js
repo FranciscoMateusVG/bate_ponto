@@ -9,7 +9,7 @@ const modal = async (elementHandle, params) => {
 	// Seleciona Data
 	await frame.click(".icon-calendar");
 	let datas = await frame.$x("//a[contains(@class, 'ui-state-default')]");
-	await datas[data].click();
+	await datas[data - 1].click();
 	// Escreve testim bonitim
 	await frame.evaluate(
 		() => (document.getElementById("P46_DS_OBSERVACAO").value = ""),

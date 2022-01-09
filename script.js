@@ -5,7 +5,7 @@ const modal = require("./etapas/modal");
 (async () => {
 	//constants
 	const params = {
-		data: 20 - 1,
+		data: 20,
 		texto: "Xerox to Xerox Xerox",
 		tempoInicio: "1000",
 		tempoFim: "1500",
